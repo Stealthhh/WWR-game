@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
-*$py.class
+.py[cod]
+$py.class
 
 # C extensions
 *.so
@@ -18,7 +18,7 @@ lib/
 lib64/
 parts/
 sdist/
-var/
+*var/
 wheels/
 pip-wheel-metadata/
 share/python-wheels/
