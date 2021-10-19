@@ -12,8 +12,7 @@ def start_name():
         elif user_name == "":
             print("You didn't enter your name: Another try: ")
         else:
-            break
-    return user_name
+            return user_name
 
 
 def play(user_name):
@@ -64,7 +63,7 @@ if __name__ == "__main__":
             if user_input == "start":
                 process_game(name)
             elif user_input == "show scores":
-                    GameOver.show.scores()
+                    GameOver.show_scores()
             elif user_input == "help":
                 for i in settings.display_help:
                     print(i)
