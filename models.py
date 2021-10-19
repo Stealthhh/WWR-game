@@ -28,7 +28,6 @@ class Player:
 
     score = 0
     lives = settings.player_lives
-    allowed_attacks = [1, 2, 3]
 
     @staticmethod
     def fight(attack, defense) -> int:
